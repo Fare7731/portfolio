@@ -13,4 +13,4 @@ This repository contains my working portfolio, which I open to the world using G
 
 
 # Usage:
-Go to the [site](test.farevfx.site). Please note that the site is not yet fully ready and will be further developed.
+Go to the [site](https://test.farevfx.site). Please note that the site is not yet fully ready and will be further developed.
