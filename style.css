@@ -41,6 +41,8 @@ body {
 .horizontal-video iframe {
     border-radius: 1rem;
     width: 30%;
+    height: auto;
+    align-self: center;
     max-width: 1200px;
     aspect-ratio: 16 / 9;
     overflow: hidden;
