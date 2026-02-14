@@ -11,6 +11,12 @@ body {
     margin-bottom: 0em;
 }
 
+.divider {
+    border: 3px solid white;
+    margin-left: 2%;
+    margin-right: 1%;
+    border-radius: 0.5rem;
+}
 .subtitle {
     font-family: "DM Sans"; 
     font-weight: 600;
@@ -20,6 +26,87 @@ body {
 
 .buttons-container {
     margin-left: 4rem;
+}
+
+.horizontal-video {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.horizontal-video iframe {
+    border-radius: 1rem;
+    width: 30%;
+    max-width: 1200px;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border: none;
+        box-shadow:
+        3px 3px 30px #ffffff33
+}
+
+.horizontal-sign {
+    font-family: "DM Sans";
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.horizontal-sign p {
+    margin: 10px;
+}
+.subscribers-count {
+    font-family: "DM Sans";
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.vertical-section {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.vertical-section iframe {
+    border-radius: 1rem;
+    overflow: hidden;
+    border: none;
+        box-shadow:
+        3px 3px 30px #ffffff33
+}
+
+.vertical-section figcaption {
+    margin-bottom: 20px;
+}
+
+.motion-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "DM Sans";
+    font-size: 2.5rem;
+    font-weight: 700;
+    gap: 20px;
+    border-radius: 1rem;
+}
+
+.motion-figure iframe {
+    border-radius: 1rem;
+    width: 50%;
+    max-width: 1200px;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    border: none;
+        box-shadow:
+        3px 3px 30px #ffffff33
 }
 
 .top-button {
